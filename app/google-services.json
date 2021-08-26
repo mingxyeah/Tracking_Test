@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "716636058220",
+    "firebase_url": "https://defense-3d-mission-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "defense-3d-mission",
+    "storage_bucket": "defense-3d-mission.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716636058220:android:93147c8bbf9142d735de49",
+        "android_client_info": {
+          "package_name": "com.defence.tracking_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716636058220-kha6edanaqd1pui6ucrpimh164pjp7mh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqVcNSLmRKxpH6TyqhTFL9UF9hjEWQOd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716636058220-kha6edanaqd1pui6ucrpimh164pjp7mh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
