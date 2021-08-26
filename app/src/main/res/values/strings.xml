@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Tracking_Test</string>
+    <string name="wait_5s_and_then_go_back_to_home_screen_dont_kill_the_app">Wait 5s and then go back to home screen, dont kill the app</string>
+</resources>
