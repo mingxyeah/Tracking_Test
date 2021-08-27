@@ -28,9 +28,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
 
+        String androidID = Settings.Secure.getString(getContentResolver(),Settings.Secure.ANDROID_ID);
+        
         ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION}, PackageManager.PERMISSION_GRANTED);
 
-        databaseReference = FirebaseDatabase.getInstance().getReference("Location");
+        databaseReference = FirebaseDatabase.getInstance().getReference("User: " + androidID);
 
         locationListener = new LocationListener() {
             @Override
